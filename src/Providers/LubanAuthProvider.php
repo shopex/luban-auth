@@ -1,6 +1,6 @@
 <?php
 
-namespace Shopex\LubanAdmin\Providers;
+namespace Shopex\LubanAuth\Providers;
 
 use File;
 use Illuminate\Support\ServiceProvider;
