@@ -1,0 +1,27 @@
+{
+    "name": "shopex/luban-auth",
+    "license": "MIT",
+    "description": "Luban Laravel Admin Panel",
+    "keywords": [
+        "laravel",
+        "auth",
+        "shopex",
+        "luban",
+    ],
+    "authors": [
+        {
+            "name": "shopex",
+            "email": "dev@shopex.cn"
+        }
+    ],
+    "require": {
+        "php": ">=5.5.9",
+        "illuminate/support": "^5.1",
+        "guzzlehttp/guzzle": "^6.3"   
+    },
+    "autoload": {
+        "psr-4": {
+            "Shopex\\LubanAdmin\\": "src/"
+        }
+    }
+}
