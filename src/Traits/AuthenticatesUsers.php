@@ -51,7 +51,7 @@ trait AuthenticatesUsers
                 'response_type'=>'code',
                 'app_id' => $this->sso_app_id,
                 'app_secret' => $this->sso_app_secret,
-                'redirect_uri'=> url('/login'),
+                'redirect_uri'=> route('login'),
             ));
 
         $login_url = $this->get_sso_url('login', $query);
